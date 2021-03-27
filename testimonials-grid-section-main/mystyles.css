@@ -1,40 +1,165 @@
 /* General Styles */
 
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-	font-size: 62.5%;
+  font-size: 13px;
 }
 
 body {
-	font-size: 1.4rem;
-}
-
-ul {
-	list-style: none;
+  font-size: 13px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: #f2f2f2;
 }
 
 img {
-	width: 100%;
-	height: 100%;/auto
+  width: 100%;
+  height: 100%;
 }
 
-figure {
-	line-height: 0;
+html,
+body {
+  height: 1824px;
 }
 
-a { 
-	text-decoration: none;
+.container {
+  width: 375px;
+  margin: 55px auto;
 }
 
-ul li {
-padding: 20px;	
-}	
+.light-text {
+  color: #48556a;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  opacity: 70%;
+  width: 247px;
+}
 
+.light-heading {
+  color: #48556a;
+  font-size: 20px;
+  font-weight: 500;
+  width: 263px;
+}
 
-html, body {
-	height: 100%;
+.light-name {
+  color: #48556a;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+}
+
+.light-verified {
+  color: #48556a;
+  opacity: 50%;
+  font-size: 11px;
+  line-height: 11px;
+  padding-top: 2px;
+}
+
+.border {
+  border: 2px solid #a775f1;
+}
+
+/* CARD STYLES */
+
+.card {
+  width: 327px;
+  padding: 20px 20px 20px 25px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.student {
+  display: flex;
+  align-items: center;
+}
+
+.student img {
+  width: 33px;
+  height: 33px;
+  border-radius: 100%;
+  margin-right: 15px;
+  display: block;
+}
+
+.credential > .name {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+}
+
+.credential > .verified {
+  color: #ffffff;
+  opacity: 50%;
+  font-size: 11px;
+  line-height: 11px;
+  padding-top: 2px;
+}
+
+.card-content > .heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  width: 263px;
+}
+
+.card-content > .text {
+  color: #cfcfcf;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  opacity: 70%;
+  width: 247px;
+}
+
+.card-1 {
+  /* More work on this */
+  background-color: #733fc8;
+  height: 441px;
+  margin-bottom: 15px;
+  background-image: url("images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-color: #733fcb;
+  background-position: 200px 0px;
+}
+
+.card-2 {
+  background-color: #48446a;
+  height: 240px;
+  margin-bottom: 15px;
+}
+.card-3 {
+  background-color: #ffffff;
+  height: 222px;
+  margin-bottom: 15px;
+}
+.card-4 {
+  background-color: #19202d;
+  height: 384px;
+  margin-bottom: 15px;
+}
+.card-5 {
+  background-color: #ffffff;
+  height: 438px;
+}
+
+.attribution {
+  margin: 10px auto;
+}
+.attribution a {
+  text-decoration: none;
+}
